@@ -3,7 +3,7 @@ let input = document.getElementById("input")
 let password = document.getElementById("password")
 
 function redirect() {
-    window.open("home.html")
+    window.open("http://localhost:5500/home/index.html")
 }
 
 
