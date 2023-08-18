@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+
+    width:100%;
+    display: grid;
+grid-template-columns:16% 52% 32%;
+grid-template-rows: 100%;
+}
+.right{
+    padding:30px 20px 30px 20px;
+    position:relative;
+    /* background:yellow; */
+    height: 100%;
+    overflow-y: auto;
+}
+
+.right::-webkit-scrollbar{
+ display:none;
+}
+
+
+.right>.img>img{
+    width:120px;
+    
+}
+.common{
+    display:flex;
+     align-items: center;
+     margin:3px 0px;
+     padding:15px 10px;
+}
+.common>p{
+    margin-left:10px;
+    font-size: 16px;
+   
+
+} 
+.common:hover{
+   background:rgba(0, 0, 0, .05);
+   cursor:pointer;
+   border-radius: 5px;
+}
+ion-icon{
+   font-size: 25px;
+}
+.uniqueMar{
+    margin-top: 100px;
+}
+.more>p{
+    margin-left: 10px;
+}
+.more>ion-icon{
+    font-size: 30px;
+}
+
+.active{
+    font-weight: 700;
+}
